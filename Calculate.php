@@ -74,5 +74,7 @@ if(isset($_POST['add_numbers']))
     echo "<button onclick=window.location.href='Calculator.php'>Go back</button>";
   }
 
+} else {
+  header('location: Calculator.php');
 }
 ?>
